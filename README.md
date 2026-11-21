@@ -1,4 +1,4 @@
-# Reddit Trend Detector
+# Trend Detector
 
 ## Question
 
