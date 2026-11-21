@@ -12,4 +12,4 @@
 ## 2026-11-21 — Session 2: loading into pandas
 - **Learned:** a DataFrame is a table of columns (Series) that share one index, and each column has one dtype (on pandas 3, text shows as `str` and missing values as `NaN`). I loaded all 171,756 posts by building a list of small dicts and calling `pd.DataFrame` once. `df = ...` replaces the whole table, so to change one column I write `df["col"] = ...`. Timestamp units matter: seconds vs milliseconds is the difference between 2024 and 1970.
 - **Still confused:** `groupby` and how it splits the table; the pandas docs page was too dense (NumPy parts); haven't checked that the converted dates match session 1 yet.
-- **Next:** Restart and Run All, check step 3 min/max dates, then step 4 (removed-category share per subreddit with `groupby` + `value_counts`).
+- **Next:** Restart and Run All then step 4 (removed-category share per subreddit with `groupby` + `value_counts`).
